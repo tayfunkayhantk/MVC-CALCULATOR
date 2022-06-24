@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "HesapMakinesi";
+}
+
+<h2>Hesap Makinesi</h2>
+
+<form class="form-group" method="post">
+    <div>
+        Sayı 1: <input type="text" name="sayi1" id="sayi1" /><br /><br />
+        Sayı 2: <input type="text" name="sayi2" id="sayi2" /><br /><br />
+
+        <input type="radio" value="+" id="islem123" name="islem123" />+
+        <input type="radio" value="-" id="islem123" name="islem123" />-
+        <input type="radio" value="*" id="islem123" name="islem123" />*
+        <input type="radio" value="/" id="islem123" name="islem123" />/
+
+        <br /><br /> Sonuç: @ViewBag.snc<br /><br />
+        <button>Hesapla</button>
+    </div>
+
+</form>
+
